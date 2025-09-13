@@ -1,1 +1,1 @@
-basename -a $(find . -name "*.txt") | sort
+basename -a $(find . -name "*.txt") | sort -u
